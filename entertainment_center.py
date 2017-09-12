@@ -4,7 +4,13 @@ from media import Movie
 A movies storage list
 '''
 movies = list()
-
+'''
+we append instances of class Movie in movies list.
+Movie constructor takes three arguments
+  title - String
+  poster_image_url - String
+  trailer_youtube_url -String
+'''
 movies.append(Movie("Interstellar",
                     "http://www.interstellarmovie.net/images/downloads/" +
                     "wps/1920/int_wps_1920_farm.jpg",
